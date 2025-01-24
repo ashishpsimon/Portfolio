@@ -55,7 +55,7 @@ function Development() {
               <div className=" px-6 py-4 space-x-3 justify-around">
               <a href={demoLink} target="_blank" rel="noopener noreferrer">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
-                  Demo
+                  Live
                 </button>
                 </a>
                 <a href={sourceCodeLink} target="_blank" rel="noopener noreferrer">
