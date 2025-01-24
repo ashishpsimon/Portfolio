@@ -1,6 +1,8 @@
 import pic from "../../public/programmer1.png";
 
 import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -50,6 +52,22 @@ function Home() {
                       target="_blank"
                     >
                       <FaLinkedin className="text-2xl cursor-pointer" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/ashishpsimon"
+                      target="_blank"
+                    >
+                      <FaGithub className="text-2xl cursor-pointer" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://leetcode.com/u/Ashish_P_Simon/"
+                      target="_blank"
+                    >
+                      <SiLeetcode className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>
